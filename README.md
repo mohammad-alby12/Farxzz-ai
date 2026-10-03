@@ -1,0 +1,2 @@
+# Farxzz-ai
+my ai
