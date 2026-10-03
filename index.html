@@ -1,0 +1,12 @@
+<!doctype html><html lang="id"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Farxzz AI</title><link rel="stylesheet" href="style.css"></head><body>
+<aside id="side"><div class="brand"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#b7d36b" stroke-width="2.2" stroke-linecap="round"><path d="M5 20V4h13M5 12h9"/><path d="M14 20l5-8" /></svg><b>Farxzz AI</b></div>
+<button id="new" class="btn">Chat baru</button><div id="list"></div>
+<button id="models" class="btn ghost">Model & sistem</button></aside>
+<main><header><button id="menu" class="ic">☰</button><span id="mname">Belum ada model aktif</span><button id="export" class="ic" style="margin-left:auto" title="Ekspor percakapan">⤓</button></header>
+<div id="msgs"><p class="empty">Tulis pesan atau lampirkan file. Semua diproses di server ini.</p></div>
+<div id="comp"><div id="att"></div><div class="row"><label class="ic">📎<input id="file" type="file" hidden accept=".jpg,.jpeg,.png,.webp,.pdf,.txt,.md,.docx,.csv,.json,.py,.js,.ts,.html,.css"></label>
+<textarea id="in" rows="1" placeholder="Tulis pesan..."></textarea><button id="send" class="btn">Kirim</button></div></div></main>
+<div id="modal" hidden><div class="panel"><div class="top"><b>Model & sistem</b><button id="close" class="ic">✕</button></div><div id="sys"></div><div id="mlist"></div></div></div>
+<script src="app.js"></script></body></html>
